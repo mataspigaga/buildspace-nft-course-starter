@@ -52,7 +52,7 @@ const App = () => {
     const rinkebyChainId = "0x4";
     if (chainId !== rinkebyChainId) {
       alert(
-        "You are not connected to the Rinkeby Test Network! Get Test ETH here: https://buildspace-faucet.vercel.app/"
+        "You are not connected to the Rinkeby Test Network! Get Test ETH here: https://faucets.chain.link/rinkeby"
       );
     }
   };
