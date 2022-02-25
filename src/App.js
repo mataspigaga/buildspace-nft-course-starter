@@ -71,7 +71,7 @@ const App = () => {
         return;
       }
 
-      // Fancy method to request access to account.
+      // request access to account
       const accounts = await ethereum.request({
         method: "eth_requestAccounts",
       });
@@ -188,6 +188,7 @@ const App = () => {
               View Collection on OpenSea
             </button>
           </a>
+          <p>Connected Account: {currentAccount}</p>
         </div>
         <div className="footer-container">
           <a
